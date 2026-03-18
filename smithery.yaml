@@ -1,0 +1,6 @@
+startCommand:
+  type: stdio
+  command: podman run -i --rm ffdec-mcp-server
+
+build:
+  command: podman build -t ffdec-mcp-server .
